@@ -31,3 +31,6 @@
 .contacts-link:focus {
     color: #404BBF;
 }
+address {
+    font-style: normal;
+}
