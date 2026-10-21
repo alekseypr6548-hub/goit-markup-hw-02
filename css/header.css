@@ -9,7 +9,7 @@
 }
 
 .logo-web {
-    color: 4D5AE5;
+    color: #4D5AE5;
 }
 
 .nav-link {
@@ -17,12 +17,17 @@
     font-size: 16px;
     line-height: 1.5;
     letter-spacing: 0.02em;
-    color: 2E2F42;
+    color: #2E2F42;
 }
 
 .contacts-link {
     font-size: 16px;
     line-height: 1.5;
     letter-spacing: 0.02em;
-    color: 434455;
+    color: #434455;
+}
+
+.nav-link:hover, .nav-link:focus, .contacts-link:hover,
+.contacts-link:focus {
+    color: #404BBF;
 }
