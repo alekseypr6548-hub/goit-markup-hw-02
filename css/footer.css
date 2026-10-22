@@ -1,0 +1,75 @@
+/* 1. Главный контейнер футера */
+.footer {
+    background-color: #2e2f42;
+    /* Точный глубокий темный цвет из макета */
+    padding: 0;
+    /* 💡 ОБНУЛЯЕМ padding, чтобы контент встал в самый верхний угол */
+    font-family: "Roboto", sans-serif;
+    width: 100%;
+}
+
+/* 2. Контейнер, удерживающий элементы вместе в верхнем левом углу */
+.footer .container {
+    display: flex;
+    flex-direction: column;
+    /* Логотип строго над строкой текста */
+    align-items: flex-start;
+    /* Жесткое выравнивание элементов по левому краю */
+    max-width: 1158px;
+    /* Стандартная десктопная ширина макета */
+    margin: 0 auto;
+    /* Центрирует рабочую область на экране */
+    padding-left: 15px;
+    /* Тот самый аккуратный технический зазор слева */
+    padding-right: 15px;
+    padding-top: 16px;
+    /* 💡 Минимальный аккуратный зазор от самого верхнего края */
+    padding-bottom: 16px;
+    /* Компактный зазор снизу */
+    box-sizing: border-box;
+}
+
+/* 3. Ссылка-логотип WEBSTUDIO */
+.footer-logo {
+    font-family: "Raleway", sans-serif;
+    font-size: 18px;
+    font-weight: 700;
+    line-height: 1.17;
+    letter-spacing: 0.03em;
+    color: #f4f4fd;
+    /* Чистый белый для части STUDIO */
+    text-transform: uppercase;
+    /* Все буквы заглавные */
+    text-decoration: none;
+    /* Полностью убирает подчеркивание */
+    display: inline-block;
+    margin: 0 0 16px 0;
+    /* Зазор 16px строго до текста */
+    padding: 0;
+}
+
+/* 4. Выделенная синим цветом часть Web */
+.logo-web {
+    color: #4d5ae5;
+    /* Насыщенный ярко-синий цвет бренда */
+}
+
+/* 5. Текст описания под логотипом в одну строку */
+.footer-text {
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+    color: #f4f4fd;
+    /* Нежно-белый контрастный цвет текста */
+    text-align: left;
+    margin: 0;
+
+    max-width: none;
+    /* Полностью убираем любые ограничения ширины */
+    width: auto;
+    white-space: nowrap;
+    /* Железно запрещает строке ломаться, пуская её в один ряд */
+
+    padding-left: 2px;
+    /* Микро-коррекция под синюю букву «W» */
+}

@@ -1,0 +1,87 @@
+/* 1. Сброс отступов для списка */
+.team-list {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+/* 2. Контейнер всей секции (задает сиреневую смугу слева) */
+.team-section {
+    max-width: 550px;
+    margin: 0 auto;
+    background-color: #f4f4fd;
+    /* Тот самый нежно-сиреневый оттенок */
+    font-family: "Roboto", sans-serif;
+    padding-left: 16px;
+    /* Этот отступ формирует вертикальную линию слева */
+    box-sizing: border-box;
+}
+
+/* 3. Заголовок «Our Team» */
+.team-title {
+    text-align: center;
+    font-size: 20px;
+    font-weight: 700;
+    letter-spacing: 0.02em;
+    color: #2e2f42;
+    margin: 0;
+    padding: 16px 0;
+    background-color: #f4f4fd;
+}
+
+/* 4. Карточка сотрудника (белая плашка) */
+.team-item {
+    display: flex;
+    flex-direction: column;
+    /* Картинка сверху, текст строго под ней */
+    align-items: center;
+    /* Центрирует текст строго по центру всего макета */
+    background-color: #ffffff;
+    /* Сама карточка внутри полностью белая */
+    padding-bottom: 24px;
+    /* Отступ от текста до нижнего края */
+    box-sizing: border-box;
+    margin-bottom: 8px;
+    /* Горизонтальный бузковый промежуток между карточками */
+}
+
+/* Убираем нижний отступ у самой последней карточки */
+.team-item:last-child {
+    margin-bottom: 0;
+}
+
+/* 5. Картинка сотрудника (прижата влево) */
+.team-image {
+    display: block;
+    align-self: flex-start;
+    /* Прижимает только картинку к левому краю */
+    width: 264px;
+    /* Исходная ширина из вашего HTML */
+    height: 260px;
+    /* Исходная высота из вашего HTML */
+    object-fit: cover;
+    /* Защита от искажения лиц */
+    margin-bottom: 32px;
+    /* Вертикальный отступ от фото до текста */
+}
+
+/* 6. Имя сотрудника */
+.team-subtitle {
+    font-size: 16px;
+    font-weight: 500;
+    letter-spacing: 0.02em;
+    color: #2e2f42;
+    text-align: center;
+    margin: 0 0 8px 0;
+    width: 100%;
+}
+
+/* 7. Должность */
+.team-text {
+    font-size: 14px;
+    letter-spacing: 0.02em;
+    color: #434455;
+    text-align: center;
+    margin: 0;
+    width: 100%;
+}
