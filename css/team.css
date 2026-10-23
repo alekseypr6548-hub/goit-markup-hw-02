@@ -19,14 +19,12 @@
 
 /* 3. Заголовок «Our Team» */
 .team-title {
-    text-align: center;
-    font-size: 20px;
     font-weight: 700;
+    font-size: 36px;
+    line-height: 1.11111;
     letter-spacing: 0.02em;
-    color: #2e2f42;
-    margin: 0;
-    padding: 16px 0;
-    background-color: #f4f4fd;
+    text-align: center;
+    color: #2E2F42;
 }
 
 /* 4. Карточка сотрудника (белая плашка) */
@@ -50,38 +48,25 @@
     margin-bottom: 0;
 }
 
-/* 5. Картинка сотрудника (прижата влево) */
 .team-image {
-    display: block;
-    align-self: flex-start;
-    /* Прижимает только картинку к левому краю */
     width: 264px;
-    /* Исходная ширина из вашего HTML */
     height: 260px;
-    /* Исходная высота из вашего HTML */
-    object-fit: cover;
-    /* Защита от искажения лиц */
-    margin-bottom: 32px;
-    /* Вертикальный отступ от фото до текста */
 }
 
-/* 6. Имя сотрудника */
 .team-subtitle {
-    font-size: 16px;
     font-weight: 500;
+    font-size: 20px;
+    line-height: 1.2;
     letter-spacing: 0.02em;
-    color: #2e2f42;
     text-align: center;
-    margin: 0 0 8px 0;
-    width: 100%;
+    color: #2E2F42;
 }
 
-/* 7. Должность */
 .team-text {
-    font-size: 14px;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 1.5;
     letter-spacing: 0.02em;
-    color: #434455;
     text-align: center;
-    margin: 0;
-    width: 100%;
+    color: #434455;
 }
