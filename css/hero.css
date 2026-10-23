@@ -18,8 +18,9 @@
     font-size: 16px;
     line-height: 1.5;
     letter-spacing: 0.04em;
-    color: FFFFFF;
+    color: #FFFFFF;
     background: #4D5AE5;
+    cursor: pointer;
 }
 
 /* Стилі для кнопки при наведенні мишкою та фокусі */
