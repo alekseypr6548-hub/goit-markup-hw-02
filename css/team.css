@@ -1,13 +1,6 @@
 /* 2. Контейнер всей секции (задает сиреневую смугу слева) */
 .team-section {
-    max-width: 550px;
-    margin: 0 auto;
     background-color: #f4f4fd;
-    /* Тот самый нежно-сиреневый оттенок */
-    font-family: "Roboto", sans-serif;
-    padding-left: 16px;
-    /* Этот отступ формирует вертикальную линию слева */
-    box-sizing: border-box;
 }
 
 /* 3. Заголовок «Our Team» */
@@ -22,28 +15,7 @@
 
 /* 4. Карточка сотрудника (белая плашка) */
 .team-item {
-    display: flex;
-    flex-direction: column;
-    /* Картинка сверху, текст строго под ней */
-    align-items: center;
-    /* Центрирует текст строго по центру всего макета */
     background-color: #ffffff;
-    /* Сама карточка внутри полностью белая */
-    padding-bottom: 24px;
-    /* Отступ от текста до нижнего края */
-    box-sizing: border-box;
-    margin-bottom: 8px;
-    /* Горизонтальный бузковый промежуток между карточками */
-}
-
-/* Убираем нижний отступ у самой последней карточки */
-.team-item:last-child {
-    margin-bottom: 0;
-}
-
-.team-image {
-    width: 264px;
-    height: 260px;
 }
 
 .team-subtitle {
