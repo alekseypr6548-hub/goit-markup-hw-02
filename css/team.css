@@ -1,10 +1,3 @@
-/* 1. Сброс отступов для списка */
-.team-list {
-    list-style: none;
-    padding: 0;
-    margin: 0;
-}
-
 /* 2. Контейнер всей секции (задает сиреневую смугу слева) */
 .team-section {
     max-width: 550px;
