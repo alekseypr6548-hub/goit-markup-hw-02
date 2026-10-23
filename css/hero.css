@@ -5,15 +5,21 @@
 
 /* Стилі для тексту заголовка */
 .hero-title {
-    color: #FFFFFF;
+    font-weight: 700;
+    font-size: 56px;
+    line-height: 1.07143;
+    letter-spacing: 0.02em;
     text-align: center;
+    color: #FFFFFF;
 }
 
-/* Стилі для кнопки в звичайному стані */
 .hero-btn {
-    background-color: #4D5AE5;
-    color: #FFFFFF;
-    cursor: pointer;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.04em;
+    color: FFFFFF;
+    background: #4D5AE5;
 }
 
 /* Стилі для кнопки при наведенні мишкою та фокусі */
